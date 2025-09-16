@@ -1,0 +1,101 @@
+/* RESET BÁSICO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* BODY */
+body {
+    background-color: #ffffff; /* fundo esverdeado claro */
+    color: #2e3a2f;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* TÍTULOS */
+h1, h2 {
+    margin-bottom: 15px;
+    color: #2e5d3a; /* verde escuro */
+}
+
+h1 {
+    font-size: 2rem; /* menor */
+}
+
+h2 {
+    font-size: 1.4rem; /* menor */
+}
+
+/* FORMULÁRIO */
+form {
+    background-color: #ffffff; /* verde suave */
+    padding: 15px 20px; /* menor */
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    width: 600px; /* menor */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #a3d2a1; /* verde claro */
+    font-size: 0.9rem; /* menor */
+    width: 100%;
+}
+
+form input:focus {
+    border-color: #4caf50; /* verde destaque */
+    outline: none;
+}
+
+form button {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50; /* verde */
+    color: #fff;
+    font-size: 0.95rem; /* menor */
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background-color: #388e3c; /* verde escuro */
+}
+
+/* TABELA */
+table {
+    width: 70%; /* menor */
+    border-collapse: collapse;
+    background-color: #e6f2ea; /* verde suave */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 10px 12px; /* menor */
+    text-align: center;
+}
+
+th {
+    background-color: #4caf50; /* verde */
+    color: #fff;
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background-color: #dff0e2; /* verde bem claro */
+}
+
+tr:hover {
+    background-color: #c8e6c9; /* verde destaque leve */
+}
