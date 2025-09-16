@@ -6,8 +6,11 @@
  📝 `LocalHost`
  
   📊 Para Começar, De Run no projeto [SpringBootAlunoAplication.java], espere até finalizar.
+  
   💾 Depois abra o navegador e digite o seguinte: Localhost:8088, e use o projeto.
+  
   🌐 Para isso estar funcionando, precisa estar com o MySql e o XAMPP rodando no computador
+  
   - MySQL 🐬
   - Xampp 🦴 
 
